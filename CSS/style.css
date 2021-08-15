@@ -1,0 +1,81 @@
+body {
+    background-image: url(../IMG/fundo2.jpg);
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    background-color: rgba(30, 30, 95, 0.2);
+}
+   
+h1 {
+    font-size: 3em;
+    color: rgb(238, 201, 184);
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.05em black;
+    font-family: 'Special Elite', cursive;
+}
+
+main {
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px auto;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descricao p {
+    border: 1.5px dashed rgb(113, 241, 235);
+    padding: 40px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.familias {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+.descricao > p{
+    transition: 1s;
+    margin-bottom: 5px;
+}
+
+.descricao > p:hover{
+    padding: 50px;
+    border: 2px solid rgb(189, 255, 252);
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    font-size: 15px;
+}
+
+.gameover{
+    font-family: 'Special Elite', cursive;
+    font-size: 100px;
+}
+
+@media (max-widht: 700px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        font-size:1em;
+    }
+    
+}
