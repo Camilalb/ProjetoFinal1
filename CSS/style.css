@@ -1,11 +1,11 @@
 body {
-    background-image: url(../IMG/fundo2.jpg);
+    background-image: url(../IMG/fundo.jpg);
     background-repeat:no-repeat;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-blend-mode: luminosity;
-    background-color: rgba(30, 30, 95, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
    
 h1 {
@@ -52,6 +52,26 @@ main {
     border: 2px solid rgb(189, 255, 252);
 }
 
+.opcoes {
+    font-weight: bold;
+}
+.botao {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px 5px;
+    background-color: grey;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.gameover{
+      
+    font-family: 'Special Elite', cursive;
+
+    font-size: 150px;
+    margin: 150px auto ;
+}
+
 footer {
     background-color: black;
     display: flex;
@@ -62,11 +82,6 @@ footer {
     position: fixed;
     bottom: 0;
     font-size: 15px;
-}
-
-.gameover{
-    font-family: 'Special Elite', cursive;
-    font-size: 100px;
 }
 
 @media (max-widht: 700px) {

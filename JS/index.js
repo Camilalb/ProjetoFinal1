@@ -1,5 +1,5 @@
 function vanyar (){
-    location.replace("vanyar1.html")
+  location.replace("vanyar1.html")
 }
 
 function noldor (){
