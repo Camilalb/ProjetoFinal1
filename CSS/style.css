@@ -33,6 +33,24 @@ html {
 }
 
 /* body da fase Noldor */
+.bodyn {
+    background-image: url(../IMG/noldor.jpg);
+    background-repeat:no-repeat;
+    width: 100%;
+    height: auto;
+    /* margin: auto 50px; */
+    background-size: cover;
+    background-blend-mode: luminosity;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* main das fases Vanyar */
+.mainn {
+    width: 50%;
+    margin: 100px auto;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+}
 
 /* body da fase Teleri */
 

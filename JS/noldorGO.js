@@ -1,5 +1,5 @@
-function vanyar(){
-    location.href = "../Personagem1/vanyar1.html"
+function noldor(){
+    location.href = "../Personagem1/noldor1.html"
   }
   
   function index(){

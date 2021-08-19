@@ -8,10 +8,10 @@ function resposta1() {
     }
 
     if (respost == 1) {
-        location.href = "vanyar2.html"
+        location.href = "noldorGO1.html"
         
     } else {
-        location.href = "vanyarGO1.html"
+        location.href = "noldor2.html"
 
     } 
     return 
