@@ -8,10 +8,10 @@ function resposta3() {
     }
 
     if (respost == 1) {
-        location.href = "vanyarfinal.html"
+        location.href = "telerifinal.html"
         
     } else {
-        location.href = "vanyarGO3.html"
+        location.href = "teleriGO3.html"
 
     } 
     return 
