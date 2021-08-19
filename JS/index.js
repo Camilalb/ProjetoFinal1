@@ -1,13 +1,13 @@
 function vanyar (){
-  location.href = "../Projeto Final/Personagem1/vanyar1.html"
+  location.href = "Personagem1/vanyar1.html"
 }
 
 function noldor (){
-  location.href = "../Projeto Final/Personagem2/noldor.html"
+  location.href = "Personagem2/noldor1.html"
 }
 
 function teleri (){
-  location.href = "../Projeto Final/Personagem3/teleri.html"
+  location.href = "Personagem3/teleri1.html"
 }
 
 // function escreverDevagar(elemento) {
