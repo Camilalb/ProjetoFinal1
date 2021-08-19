@@ -1,5 +1,5 @@
 function noldor(){
-    location.href = "../Personagem1/noldor1.html"
+    location.href = "./noldor1.html"
   }
   
   function index(){
